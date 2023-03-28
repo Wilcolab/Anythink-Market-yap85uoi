@@ -5,7 +5,7 @@ startFlow:
       params:
         person: keen
         messages:
-          - text: "<placeholder>"
+          - text: "whatsapp????"
             delay: 2000
 trigger:
   type: user_message
