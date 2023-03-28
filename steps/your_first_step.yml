@@ -12,5 +12,10 @@ trigger:
   params:
     person: keen
   flowNode:
-    do:
+    do:  
       - actionId: finish_step
+        params:
+        person: keen
+        messages:
+          - text: "Thanks for the reply"
+            delay: 2000
