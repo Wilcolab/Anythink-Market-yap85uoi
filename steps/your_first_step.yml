@@ -13,4 +13,11 @@ trigger:
     person: keen
   flowNode:
     do:
+      - actionId: bot_message
+        params:
+        person: keen
+        messages:
+          - text: "What's up?"
+            delay: 2000
       - actionId: finish_step
+      
